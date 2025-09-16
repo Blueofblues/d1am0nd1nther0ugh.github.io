@@ -30,23 +30,23 @@ nav a:hover {
 
 /* Homepage Layout */
 main.home {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 120px 40px;
 }
 
 /* Homepage Logo */
 .logo-container img {
-  max-width: 360px;
-  margin-top: 80px;
+  max-width: 480px;
+  margin-top: 100px;
 }
 
 /* Homepage Tagline */
 .tagline {
-  font-size: 1.8rem;
-  margin-top: 50px;
-  letter-spacing: 1.4px;
-  line-height: 2.2;
+  font-size: 2.2rem;
+  margin-top: 60px;
+  letter-spacing: 1.6px;
+  line-height: 2.6;
   color: #222;
 }
 
