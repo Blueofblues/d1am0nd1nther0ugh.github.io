@@ -50,6 +50,13 @@ main {
   color: #222;
 }
 
+/* About Page Container */
+.about {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
 /* About Page Image */
 .about-portrait {
   width: 240px;
