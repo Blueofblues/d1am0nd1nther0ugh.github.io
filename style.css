@@ -73,3 +73,30 @@ nav a:hover {
   margin-bottom: 1rem;
   letter-spacing: 0.6px;
 }
+/* Section spacing */
+main {
+  padding: 60px 20px;
+}
+
+/* Headings */
+h1, h2 {
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+/* Footer (optional) */
+footer {
+  margin-top: 60px;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #666;
+}
