@@ -1,3 +1,47 @@
+/* Base styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #111;
+  text-align: center;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: teal;
+}
+
+/* Homepage Logo */
+.logo-container img {
+  max-width: 200px;
+  margin-top: 40px;
+}
+
+/* Homepage Tagline */
+.tagline {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+/* About Page Image */
 .about-portrait {
   width: 280px;
   max-width: 90%;
@@ -7,6 +51,7 @@
   box-shadow: 0 0 20px rgba(0,0,0,0.15);
 }
 
+/* About Page Text */
 .about-text {
   max-width: 700px;
   margin: 0 auto;
