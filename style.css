@@ -43,28 +43,33 @@ nav a:hover {
 
 /* About Page Image */
 .about-portrait {
-  width: 280px;
+  width: 240px;
   max-width: 90%;
   margin: 40px auto 20px;
   display: block;
   border-radius: 6px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-portrait:hover {
+  transform: scale(1.02);
 }
 
 /* About Page Text */
 .about-text {
-  max-width: 700px;
+  max-width: 640px;
   margin: 0 auto;
   padding: 0 1rem 60px;
   font-family: 'Inter', sans-serif;
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: #111;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: #222;
 }
 
 .about-text h1 {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 500;
   margin-bottom: 1rem;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
 }
