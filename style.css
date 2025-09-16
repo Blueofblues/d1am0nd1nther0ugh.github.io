@@ -54,14 +54,14 @@ main.home {
 main.about {
   max-width: 960px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 100px 40px;
 }
 
 /* About Page Image */
 .about-portrait {
-  width: 240px;
-  max-width: 90%;
-  margin: 40px auto 20px;
+  width: 300px;
+  max-width: 100%;
+  margin: 60px auto 30px;
   display: block;
   border-radius: 6px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -74,20 +74,20 @@ main.about {
 
 /* About Page Text */
 .about-text {
-  max-width: 640px;
+  max-width: 700px;
   margin: 0 auto;
-  padding: 0 1rem 60px;
+  padding: 0 1rem 80px;
   font-family: 'Inter', sans-serif;
-  font-size: 1.2rem;
-  line-height: 2;
+  font-size: 1.3rem;
+  line-height: 2.2;
   color: #222;
 }
 
 .about-text h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 500;
-  margin-bottom: 1rem;
-  letter-spacing: 0.6px;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.8px;
 }
 
 /* Headings */
