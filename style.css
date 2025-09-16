@@ -29,32 +29,32 @@ nav a:hover {
 }
 
 /* Homepage Layout */
-main {
+main.home {
   max-width: 960px;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 100px 20px;
 }
 
 /* Homepage Logo */
 .logo-container img {
-  max-width: 320px;
-  margin-top: 60px;
+  max-width: 360px;
+  margin-top: 80px;
 }
 
 /* Homepage Tagline */
 .tagline {
-  font-size: 1.6rem;
-  margin-top: 40px;
-  letter-spacing: 1.2px;
-  line-height: 2;
+  font-size: 1.8rem;
+  margin-top: 50px;
+  letter-spacing: 1.4px;
+  line-height: 2.2;
   color: #222;
 }
 
-/* About Page Container */
-.about {
+/* About Page Layout */
+main.about {
   max-width: 960px;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 100px 20px;
 }
 
 /* About Page Image */
@@ -78,13 +78,13 @@ main {
   margin: 0 auto;
   padding: 0 1rem 60px;
   font-family: 'Inter', sans-serif;
-  font-size: 1.15rem;
-  line-height: 1.9;
+  font-size: 1.2rem;
+  line-height: 2;
   color: #222;
 }
 
 .about-text h1 {
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 500;
   margin-bottom: 1rem;
   letter-spacing: 0.6px;
