@@ -28,17 +28,26 @@ nav a:hover {
   color: teal;
 }
 
+/* Homepage Layout */
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
 /* Homepage Logo */
 .logo-container img {
-  max-width: 200px;
-  margin-top: 40px;
+  max-width: 320px;
+  margin-top: 60px;
 }
 
 /* Homepage Tagline */
 .tagline {
-  font-size: 1.2rem;
-  margin-top: 20px;
-  letter-spacing: 1px;
+  font-size: 1.6rem;
+  margin-top: 40px;
+  letter-spacing: 1.2px;
+  line-height: 2;
+  color: #222;
 }
 
 /* About Page Image */
@@ -72,10 +81,6 @@ nav a:hover {
   font-weight: 500;
   margin-bottom: 1rem;
   letter-spacing: 0.6px;
-}
-/* Section spacing */
-main {
-  padding: 60px 20px;
 }
 
 /* Headings */
